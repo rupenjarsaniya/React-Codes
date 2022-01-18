@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+  background-color: rgb(255, 204, 204);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_content{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 1rem 2rem;
+}
+
+.container label{
+  margin: 1rem 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container input{
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  outline: none;
+  margin: 0.3rem 0;
+}
+
+.container input:focus{
+  border: 1px solid lightcoral;
+}
+
+.btn{
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  margin: 1rem auto;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  width: 20%;
+}
+
+.btn:hover{
+  background-color: white;
+  color: lightcoral;
+}

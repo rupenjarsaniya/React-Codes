@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+.quantity{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 6rem;
+}
+
+span{
+  font-size: 3rem;
+  background-color: lightskyblue;
+  border-radius: 50%;
+  padding: 0.3rem 1.3rem 0rem 1.3rem;
+  color: black;
+  cursor: pointer;
+  margin: 0 3rem;
+}

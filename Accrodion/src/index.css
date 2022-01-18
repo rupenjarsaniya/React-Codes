@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+.header {
+  width: 100%;
+  background-color: rgba(190, 190, 190, 0.466);
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+.header .main {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: rgb(83, 83, 83);
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.main_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.primary_content{
+  background-color: white;
+  box-shadow: 0 0 10px 0 lightgray;
+  padding: 1rem 2rem;
+  border-radius: 13px;
+  width: 30%;
+}
+
+.primary_content h1{
+  color: rgb(129, 129, 129);
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.quetions_content{
+  background-color: rgb(207, 226, 233);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 0 0;
+}
+
+.quetions_content .quetion_content{
+  display: inline-block;
+}
+
+.quetions_content span{
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.answer_content{
+  background-color: antiquewhite;
+  color: rgb(59, 59, 59);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+@media only screen and (max-width: 900px) {
+  .primary_content{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .primary_content{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .primary_content{
+    width: 90%;
+  }
+}
